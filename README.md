@@ -20,14 +20,14 @@ sudo mv zam-linux-amd64 /usr/local/bin/zam
 # 📖 How to Use
 ## Sending Files & Folders
 ```bash
-zam upload <file_or_folder>
+zam up <file_or_folder>
 ```
 It will ask you to set a secret key. It will then automatically compress, encrypt, and upload the payload, returning a short-link.
 
 # Receiving Files
 
 ```bash
-zam download <url_or_id>
+zam down <url_or_id>
 ```
 It will ask for the secret key, decrypt the payload, and restore your original file/folder.
 
